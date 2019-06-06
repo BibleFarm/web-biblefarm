@@ -295,6 +295,9 @@ $("title").text(document.title + " - BibleFarm.org");
   }, 8000);
 
 
+  setTimeout(function() {
+    $(".v").fadeOut("slow");
+  }, 6000);
 
 
 
