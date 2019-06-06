@@ -154,7 +154,7 @@ body {
 	margin: 0 auto;
 	top: calc(44px + 117px);
 	text-align: center;
-	z-index: -1;
+	z-index: 1;
 }
 .wrap_image_sharing_ready_to_share>div>img {
 	width: calc(100vw - 8px);
@@ -173,6 +173,7 @@ body {
 	margin: 0 auto;
 	height: 44px;
 	max-width: 312px;
+	z-index: 1;
 }
 .done_with_ready_post_next {
 	width: 100%;
@@ -217,7 +218,7 @@ body {
 .wrap_ctr_post_sharing_modal {
 	width: 100%;
 	height: 100%;
-	z-index: -2;
+	z-index: 0;
 	position: absolute;
   background: rgba(0, 0, 0, 0.9);
 
@@ -425,11 +426,19 @@ font-size: 19px;
 #bg {display:none}
 
 /* div with verse in text form so we can copy paste */
-#v {
+.v {
 	position: absolute;
 	display: block;
-	top: 50px;
-	z-index: 111111;
-}
+		z-index: 11;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		top: 420px;
+		max-width: 292px;
+		background: gray;
+		padding: 5px;
+	}
+
+
 
 /* END css for posting pages */
