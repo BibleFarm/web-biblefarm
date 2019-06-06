@@ -154,7 +154,7 @@ body {
 	margin: 0 auto;
 	top: calc(44px + 117px);
 	text-align: center;
-	z-index: -1;
+	z-index: 11;
 }
 .wrap_image_sharing_ready_to_share>div>img {
 	width: calc(100vw - 8px);
