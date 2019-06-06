@@ -297,7 +297,7 @@ $("title").text(document.title + " - BibleFarm.org");
 
   setTimeout(function() {
     $(".v").fadeOut("slow");
-  }, 6000);
+  }, 7000);
 
 
 
