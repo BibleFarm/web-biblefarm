@@ -56,6 +56,7 @@ body {
       position: absolute;
       max-width: 312px;
       margin: 0 auto;
+			z-index: 1;
 }
 .wait_to_load_options {
 	width: calc(100vw - 8px);
