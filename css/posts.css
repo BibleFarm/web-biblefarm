@@ -436,8 +436,10 @@ font-size: 19px;
 		margin: 0 auto;
 		top: 174px;
 		max-width: 292px;
+		min-height: 224px;
 		background: black;
-		padding: 5px;
+		padding: 10px;
+		text-align: center;
 	}
 
 
