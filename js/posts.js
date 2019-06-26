@@ -264,15 +264,12 @@ $("title").text(document.title + " - BibleFarm.org");
   });
 
 
-/*
+
   // addthis shadow hack to SHARING AND FOLLOW
   setTimeout(function() {
     $("body")
       .find("svg.at-icon")
       .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))");
-    $("body")
-      .find(".at-icon-wrapper")
-      .css("border-radius", "10px");
     console.log("/////// applied addthis shadow SHARING hack @ + 1000");
   }, 6000);
   // addthis shadow hack to SHARING AND FOLLOW
@@ -280,9 +277,6 @@ $("title").text(document.title + " - BibleFarm.org");
     $("body")
       .find("svg.at-icon")
       .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))");
-    $("body")
-      .find(".at-icon-wrapper")
-      .css("border-radius", "70px");
     console.log("/////// applied addthis shadow SHARING hack @ + 1000");
   }, 7000);
 
@@ -291,12 +285,9 @@ $("title").text(document.title + " - BibleFarm.org");
     $("body")
       .find("svg.at-icon")
       .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))");
-    $("body")
-      .find(".at-icon-wrapper")
-      .css("border-radius", "4px");
     console.log("/////// applied addthis shadow SHARING hack @ + 1000");
   }, 8000);
-*/
+
 
   setTimeout(function() {
     $(".v").fadeOut("slow");
