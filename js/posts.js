@@ -264,7 +264,7 @@ $("title").text(document.title + " - BibleFarm.org");
   });
 
 
-
+/*
   // addthis shadow hack to SHARING AND FOLLOW
   setTimeout(function() {
     $("body")
@@ -296,7 +296,7 @@ $("title").text(document.title + " - BibleFarm.org");
       .css("border-radius", "4px");
     console.log("/////// applied addthis shadow SHARING hack @ + 1000");
   }, 8000);
-
+*/
 
   setTimeout(function() {
     $(".v").fadeOut("slow");
