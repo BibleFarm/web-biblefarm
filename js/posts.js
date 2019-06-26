@@ -268,7 +268,7 @@ $("title").text(document.title + " - BibleFarm.org");
   // addthis shadow hack to SHARING AND FOLLOW
   setTimeout(function() {
     $("body")
-      .find("svg.at-icon")
+      .find(".at-icon-wrapper")
       .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("fill", "#fff")
@@ -281,7 +281,7 @@ $("title").text(document.title + " - BibleFarm.org");
   // addthis shadow hack to SHARING AND FOLLOW
   setTimeout(function() {
     $("body")
-      .find("svg.at-icon")
+      .find(".at-icon-wrapper")
       .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("fill", "#fff")
@@ -295,7 +295,7 @@ $("title").text(document.title + " - BibleFarm.org");
   // addthis shadow hack to SHARING AND FOLLOW
   setTimeout(function() {
     $("body")
-      .find("svg.at-icon")
+      .find(".at-icon-wrapper")
       .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("fill", "#fff")
