@@ -269,8 +269,9 @@ $("title").text(document.title + " - BibleFarm.org");
   setTimeout(function() {
     $("body")
       .find("svg.at-icon")
+      .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
-      .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))");
+      .css("fill", "#fff");
     $("body")
       .find(".at-icon-wrapper")
       .css("border-radius", "10px");
@@ -280,8 +281,9 @@ $("title").text(document.title + " - BibleFarm.org");
   setTimeout(function() {
     $("body")
       .find("svg.at-icon")
+      .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
-      .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))");
+      .css("fill", "#fff");
     $("body")
       .find(".at-icon-wrapper")
       .css("border-radius", "70px");
@@ -292,8 +294,9 @@ $("title").text(document.title + " - BibleFarm.org");
   setTimeout(function() {
     $("body")
       .find("svg.at-icon")
+      .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
       .css("filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))")
-      .css("-webkit-filter", "drop-shadow( 3px 3px 2px rgba(0, 0, 0, 3.8))");
+      .css("fill", "#fff");
     $("body")
       .find(".at-icon-wrapper")
       .css("border-radius", "4px");
