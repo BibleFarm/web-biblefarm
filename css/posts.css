@@ -283,6 +283,7 @@ body {
 
 .wrap_sponsor_ads {
   position: absolute;
+	display: none;
       top: calc(44px + 4px);
       left: 0;
       right: 0;
